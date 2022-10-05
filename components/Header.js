@@ -20,9 +20,9 @@ const Header = () => {
           <li className="mr-8 cursor-pointer hidden md:inline-block">
             <Link href="/"> Dashboard </Link>
           </li>
-          <li className=" mr-8 cursor-pointer hidden md:inline-block">
+          {/* <li className=" mr-8 cursor-pointer hidden md:inline-block">
             <Link href=""> Collection </Link>
-          </li>
+          </li> */}
           <li className="mr-8 cursor-pointer hidden md:inline-block">
             <Link href="/about"> About us </Link>
           </li>
