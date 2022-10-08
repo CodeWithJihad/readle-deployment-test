@@ -12,9 +12,9 @@ const Feature = () => {
             Learn and explore many things in Readle and connect with millions of
             people.
           </h2>
-          <button className="bg-green-500 p-5 text-2xl text-white w-52 md:w-56 rounded-md lg:mx-10 hover:bg-transparent hover:text-green-500 hover:border-2 hover:border-green-500 transition-all">
+         <Link href="/about"> <a> <button className="bg-green-500 p-5 text-2xl text-white w-52 md:w-56 rounded-md lg:mx-10 hover:bg-transparent hover:text-green-500 hover:border-2 hover:border-green-500 transition-all">
             Read Readle
-          </button>
+          </button> </a> </Link>
         </div>
         <img
           className=" hidden lg:block object-contain w-2/6 2xl:my-5 mx-10 transition-all"
